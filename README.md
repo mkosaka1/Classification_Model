@@ -1,13 +1,9 @@
-# Mod 3 Classification Project
+# Who Wants to Be a Millionaire? (Or Far From it)
+Create a classification model that will correctly predict whether a person will make over the median income based on different attributes.
 
 DSC NYC Flatiron Module 3 Project
 By: **Jason Drummond and Muriel Kosaka**
 
-## Presentation Link (https://docs.google.com/presentation/d/1RYuTh9dFPOzJo0IkjLOwL0ptJ_eTNzYKQgWviHJQvaQ/edit#slide=id.g8b57e1b895_0_188)
-
-## Goal
-
-Create a classification model that will correctly predict whether a person will make over the median income based on different attributes.
 
 ## Use Case
 
@@ -73,7 +69,8 @@ We created four different classification models, a logistic, a KNN, a Decision T
 
 ![](/images/confusion_matrix.png)
 
-We were able to create a model using a Voting Classifier bundling the KNN, Logsitic, Decision Tree, and Random Forest models that produced a model with an F-1 score of .6680 and an accuracy score of .7850. The baseline accuracy, if we were just to choose the majority class for all datapoints, was .7005 for our dataset, utilizing the Voting Classifier model we are able to increase that accuracy by 12 percent.
+We were able to create a model using a Voting Classifier bundling the KNN, Logsitic, Decision Tree, and Random Forest models that produced a model with an F-1 score of .6680 and an accuracy score of .7850. The baseline accuracy, if we were just to choose the majority class for all datapoints, was .7005 for our dataset, utilizing the Voting Classifier model we are able to increase that accuracy by 12 percent.[Google Slides](https://docs.google.com/presentation/d/1RYuTh9dFPOzJo0IkjLOwL0ptJ_eTNzYKQgWviHJQvaQ/edit#slide=id.g8b57e1b895_0_188)
+
 
 ## Use Case Insights
 
